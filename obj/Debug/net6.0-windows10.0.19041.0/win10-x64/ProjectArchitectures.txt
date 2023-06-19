@@ -1,0 +1,1 @@
+C:\Users\aleja\Source\Repos\MauiApp IP\MauiApp IP.csproj;x64
