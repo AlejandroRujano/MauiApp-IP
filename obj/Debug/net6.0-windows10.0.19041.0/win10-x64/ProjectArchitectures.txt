@@ -1,1 +1,1 @@
-C:\Users\aleja\Source\Repos\MauiApp IP\MauiApp IP.csproj;x64
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\MauiApp IP.csproj;x64
