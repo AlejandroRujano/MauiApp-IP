@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp_IP.Resources.Views.MainSpeedyIP"
+             Title="MainSpeedyIP"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#00003e">
+    <FlexLayout Direction="Column" Margin="8">
+        <Grid RowDefinitions="AUTO,AUTO,*,100" ColumnDefinitions="*">
+            <!-- PRIMERA FILA -->
+            <Grid RowDefinitions="*" ColumnDefinitions="*,*" Margin="8,8,8,32" Grid.Row="0">
+                <ImageButton Source="lunaborde"
+                         HeightRequest="50"
+                         WidthRequest="50"
+                         Grid.Column="0"
+                         HorizontalOptions="Start">
+                </ImageButton>
+                <Image Source="logoapp.png"
+                   HeightRequest="50"
+                   WidthRequest="50"
+                   Grid.Column="1"
+                   HorizontalOptions="End"
+                   Aspect="Fill"
+                >
+                </Image>
+            </Grid>
+            <!-- SEGUNDA FILA -->
+            <VerticalStackLayout Margin="8" Grid.Row="1">
+                <Label
+                Text="Bienvenido a"
+                TextColor="White"
+                FontSize="36"
+                Padding="8"
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                Margin="24,0,0,0"
+            >
+                </Label>
+                <Label
+                Text="SpeedyIP"
+                FontAttributes="Bold"
+                TextColor="White"
+                FontSize="36"
+                HorizontalOptions="End"
+                Padding="8"
+                Margin="0,0,24,0"
+            >
+                </Label>
+            </VerticalStackLayout>
+            <!-- TERCERA FILA -->
+            <ImageButton Source="cargar2"
+                     HeightRequest="300"
+                     WidthRequest="300"
+                     x:Name="ImgCentral"
+                     Clicked="BtnAnalizar_Clicked"
+                     HorizontalOptions="Center"
+                     Grid.Row="2"
+                     >
+            </ImageButton>
+            <!-- CUARTA FILA -->
+            <Border BackgroundColor="#00003e" 
+                Stroke="#a001f6"
+                StrokeThickness="5"
+                HorizontalOptions="Center"
+                Padding="145,0,145,0"
+                x:Name="BordeBtnAnalizar" 
+                Grid.Row="3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="50,50,50,50">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+            </Border>
+            <Button
+                Text="ANALIZAR"
+                TextColor="White"
+                FontSize="36"
+                FontAttributes="Bold"
+                CharacterSpacing="1.25"
+                Padding="36,16,36,16"
+                BackgroundColor="#00003e"
+                CornerRadius="50"
+                BorderColor="#3733ac"
+                BorderWidth="4"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                x:Name="BtnAnalizar"
+                Clicked="BtnAnalizar_Clicked"
+                    Grid.Row="3"
+            >
+            </Button>
+        </Grid>
+    </FlexLayout>
+</ContentPage>

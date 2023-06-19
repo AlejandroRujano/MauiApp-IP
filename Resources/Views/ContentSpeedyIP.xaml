@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp_IP.Resources.Views.ContentSpeedyIP"
+             Title="ContentSpeedyIP"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#00003e"
+             xmlns:model="clr-namespace:MauiApp_IP.Resources.Model">
+    <ScrollView>
+        <Grid ColumnDefinitions="*" RowDefinitions="AUTO,AUTO,AUTO,AUTO" Margin="12">
+            <!-- PRIMERA FILA -->
+            <FlexLayout Direction="Row" Grid.Column="0" Grid.Row="0" JustifyContent="SpaceBetween">
+                <ImageButton Source="dotnet_bot"
+                             HeightRequest="50"
+                             WidthRequest="50"
+                             x:Name="BtnRegresar"
+                             Clicked="BtnRegresar_Clicked"
+                             >
+                </ImageButton>
+                <Label Text="Mi Informacion"
+                       FontAttributes="Bold"
+                       FontSize="32"
+                       TextColor="White"
+                       >
+                </Label>
+            </FlexLayout>
+            <!-- SEGUNDA FILA -->
+            <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" Grid.Row="1" Grid.Column="0" ColumnSpacing="20" RowSpacing="24" Margin="12,30,12,18" x:DataType="model:Adaptador" x:Name="GridSuperior">
+                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="3" Grid.Column="0" Grid.Row="0" Padding="12">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="30,30,30,30">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0" >
+                        <Label
+                            Text="Adaptador"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding Name}"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            VerticalOptions="CenterAndExpand"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="3" Grid.Column="1" Grid.Row="0"  Padding="12">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="30,30,30,30">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0">
+                        <Label
+                            Text="IP"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding IPv4}"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="3" Grid.Column="0" Grid.Row="1"  Padding="12">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="30,30,30,30">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0">
+                        <Label
+                            Text="Velocidad Mbps"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalTextAlignment="Center"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding VelocidadMbps}"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="3" Grid.Column="1" Grid.Row="1"  Padding="12">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="30,30,30,30">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0">
+                        <Label
+                            Text="ID"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding Id}"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+            <!-- TERCERA FILA -->
+            <VerticalStackLayout Grid.Row="2" Margin="20">
+                <Label
+                Text="Mi Direccion"
+                FontAttributes="Bold"
+                FontSize="20"
+                TextColor="White"
+                Padding="8"
+                >
+                </Label>
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="3" Padding="12">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="50,50,50,50">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout>
+                        <Label
+                            Text="Titulo 1"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            HorizontalOptions="Center"
+                            >
+                        </Label>
+                        <Label
+                            Text="AQUI DEBERIA IR ALGUNA DIRECCION, NO SE SU CASA, O LA BODEGA DE LA ESQUINA"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="White"
+                            Padding="12"
+                            HorizontalTextAlignment="Center"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+            <!-- CUARTA FILA -->
+            <Image 
+            Source="dotnet_bot"
+            HeightRequest="200"
+            WidthRequest="200"
+            Grid.Column="0"
+            Grid.Row="3"
+            >
+            </Image>
+        </Grid>
+    </ScrollView>
+</ContentPage>

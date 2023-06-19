@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7My465030G4hQP4kmo9GGpYOHEdkbCwpj0oMGn9j1BEJn1Xv2bnadH7PxGDi0racRQT1yU/fGRLEebIQXV0uxQ==",
+  "dgSpecHash": "TlV9bcWxzx26iimAGs9QNFJUl2rKbf8RZhrA39xj7PmVMhNvSy/s2JdWFTOeyeCL2LiWIU9+Y9Dm5B7qqV1vHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fran\\Documents\\GitHub\\MauiApp-IP\\MauiApp IP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fran\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
