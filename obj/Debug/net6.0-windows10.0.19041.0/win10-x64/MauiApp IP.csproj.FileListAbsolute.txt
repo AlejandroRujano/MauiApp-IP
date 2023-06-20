@@ -1103,3 +1103,14 @@ C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win1
 C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check1.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check2.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check3.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check4.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check5.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check6.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkinterfaz.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkinterfaz2.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\interfaz2.scale-100.png
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Raleway-Regular.ttf
+C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Raleway-VariableFont_wght.ttf

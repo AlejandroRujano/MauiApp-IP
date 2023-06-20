@@ -1,5 +1,7 @@
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
+Raleway-Regular.ttf
+Raleway-VariableFont_wght.ttf
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -51,6 +53,14 @@ cargar2.scale-125.png
 cargar2.scale-150.png
 cargar2.scale-200.png
 cargar2.scale-400.png
+check1.scale-100.png
+check2.scale-100.png
+check3.scale-100.png
+check4.scale-100.png
+check5.scale-100.png
+check6.scale-100.png
+checkinterfaz.scale-100.png
+checkinterfaz2.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
