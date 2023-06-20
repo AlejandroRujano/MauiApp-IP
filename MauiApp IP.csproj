@@ -31,35 +31,35 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-maccatalyst|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows10.0.19041.0|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-ios|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-maccatalyst|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows10.0.19041.0|AnyCPU'">
-	  <ApplicationTitle>SpeedyIP</ApplicationTitle>
+	  <ApplicationTitle>Krosfy NetCheck</ApplicationTitle>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -81,9 +81,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Raleway-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Raleway-VariableFont_wght.ttf" />
 	  <None Remove="Resources\Images\cargar2.svg" />
-	  <None Remove="Resources\Images\check1.png" />
 	  <None Remove="Resources\Images\check2.png" />
+	  <None Remove="Resources\Images\flecharegresar.svg" />
 	  <None Remove="Resources\Images\logoapp.png" />
 	  <None Remove="Resources\Images\lunaborde.svg" />
 	</ItemGroup>
