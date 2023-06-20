@@ -7,7 +7,7 @@
              BackgroundColor="#00003e"
              xmlns:model="clr-namespace:MauiApp_IP.Resources.Model">
     <ScrollView>
-        <Grid ColumnDefinitions="*" RowDefinitions="AUTO,AUTO,AUTO,AUTO" Margin="12">
+        <Grid ColumnDefinitions="*" RowDefinitions="AUTO,AUTO,AUTO,AUTO,AUTO, AUTO" Margin="12">
             <!-- PRIMERA FILA -->
             <FlexLayout Direction="Row" Grid.Column="0" Grid.Row="0" JustifyContent="SpaceBetween">
                 <ImageButton Source="dotnet_bot"
@@ -26,13 +26,14 @@
             </FlexLayout>
             <!-- SEGUNDA FILA -->
             <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" Grid.Row="1" Grid.Column="0" ColumnSpacing="20" RowSpacing="24" Margin="12,30,12,18" x:DataType="model:Adaptador" x:Name="GridSuperior">
-                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="3" Grid.Column="0" Grid.Row="0" Padding="12">
+                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="2.5" Grid.Column="0" Grid.Row="0" Padding="12">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="30,30,30,30">
+                        <RoundRectangle CornerRadius="15,15,15,15">
                         </RoundRectangle>
                     </Border.StrokeShape>
                     <VerticalStackLayout Padding="6,0,6,0" >
                         <Label
+                            FontFamily="raleway"
                             Text="Adaptador"
                             FontAttributes="Bold"
                             FontSize="16"
@@ -51,9 +52,9 @@
                         </Label>
                     </VerticalStackLayout>
                 </Border>
-                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="3" Grid.Column="1" Grid.Row="0"  Padding="12">
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="2.5" Grid.Column="1" Grid.Row="0"  Padding="12">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="30,30,30,30">
+                        <RoundRectangle CornerRadius="15,15,15,15">
                         </RoundRectangle>
                     </Border.StrokeShape>
                     <VerticalStackLayout Padding="6,0,6,0">
@@ -75,9 +76,9 @@
                         </Label>
                     </VerticalStackLayout>
                 </Border>
-                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="3" Grid.Column="0" Grid.Row="1"  Padding="12">
+                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="2.5" Grid.Column="0" Grid.Row="1"  Padding="12">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="30,30,30,30">
+                        <RoundRectangle CornerRadius="15,15,15,15">
                         </RoundRectangle>
                     </Border.StrokeShape>
                     <VerticalStackLayout Padding="6,0,6,0">
@@ -99,9 +100,9 @@
                         </Label>
                     </VerticalStackLayout>
                 </Border>
-                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="3" Grid.Column="1" Grid.Row="1"  Padding="12">
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="2.5" Grid.Column="1" Grid.Row="1"  Padding="12">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="30,30,30,30">
+                        <RoundRectangle CornerRadius="15,15,15,15">
                         </RoundRectangle>
                     </Border.StrokeShape>
                     <VerticalStackLayout Padding="6,0,6,0">
@@ -134,7 +135,7 @@
                 Padding="8"
                 >
                 </Label>
-                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="3" Padding="12">
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="2.5" Padding="12">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="50,50,50,50">
                         </RoundRectangle>
@@ -160,13 +161,135 @@
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>
+
             <!-- CUARTA FILA -->
+            <Button Grid.Row="3"
+                Text="Mostras Más"
+                TextColor="White"
+                FontSize="11"
+                FontAttributes="Bold"
+                CharacterSpacing="1.25"
+                Padding="15,13,15,13"
+                BackgroundColor="#3733ac"
+                BorderColor="#3733ac"
+                CornerRadius="15"
+                BorderWidth="14"
+                HorizontalOptions="End"
+                VerticalOptions="End"
+                x:Name="BtnMostrasMas">
+            </Button>
+
+            <!-- QUINTA FILA -->
+            <Grid RowDefinitions="*,*,*,*" Grid.Row="4" RowSpacing="15" Margin="12,30,12,0" x:Name="GridDesplegable">
+                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="2.5" Grid.Row="0" Padding="12" HeightRequest="55">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15,15,15,15">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0" >
+                        <Label
+                            FontFamily="raleway"
+                            Text="holaa"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding Name}"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            VerticalOptions="CenterAndExpand"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="2.5" Grid.Row="1"  Padding="12" HeightRequest="55">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15,15,15,15">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0">
+                        <Label
+                            Text="cara"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding IPv4}"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+                <Border BackgroundColor="#00003e" Stroke="#3733ac" StrokeThickness="2.5" Grid.Row="2" Padding="12" HeightRequest="55">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15,15,15,15">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0" >
+                        <Label
+                            FontFamily="raleway"
+                            Text="de"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding Name}"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            VerticalOptions="CenterAndExpand"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+                <Border BackgroundColor="#00003e" Stroke="#6441b6" StrokeThickness="2.5" Grid.Row="3" Padding="12" HeightRequest="55">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15,15,15,15">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="6,0,6,0">
+                        <Label
+                            Text="pinga"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            >
+                        </Label>
+                        <Label
+                            Text="{Binding IPv4}"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                            TextColor="White"
+                            HorizontalOptions="Fill"
+                            >
+                        </Label>
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+            
+            <!-- SEXTA FILA -->
             <Image 
-            Source="dotnet_bot"
-            HeightRequest="200"
-            WidthRequest="200"
+            Source="check2.png"
+            HeightRequest="280"
+            WidthRequest="280"
             Grid.Column="0"
-            Grid.Row="3"
+            Grid.Row="5"
             >
             </Image>
         </Grid>

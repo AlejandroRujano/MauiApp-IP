@@ -82,6 +82,8 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\cargar2.svg" />
+	  <None Remove="Resources\Images\check1.png" />
+	  <None Remove="Resources\Images\check2.png" />
 	  <None Remove="Resources\Images\logoapp.png" />
 	  <None Remove="Resources\Images\lunaborde.svg" />
 	</ItemGroup>
