@@ -8,39 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiApp_IP
-build_property.ProjectDir = C:\Users\luisa\source\repos\MauiApp-IP\
+build_property.ProjectDir = C:\Users\Fran\Documents\GitHub\MauiApp-IP\
 
-[C:/Users/luisa/source/repos/MauiApp-IP/App.xaml]
+[C:/Users/Fran/Documents/GitHub/MauiApp-IP/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_IP.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/luisa/source/repos/MauiApp-IP/AppShell.xaml]
+[C:/Users/Fran/Documents/GitHub/MauiApp-IP/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_IP.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/luisa/source/repos/MauiApp-IP/Resources/Styles/Colors.xaml]
+[C:/Users/Fran/Documents/GitHub/MauiApp-IP/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_IP.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/luisa/source/repos/MauiApp-IP/Resources/Styles/Styles.xaml]
+[C:/Users/Fran/Documents/GitHub/MauiApp-IP/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_IP.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/luisa/source/repos/MauiApp-IP/Resources/Views/ContentSpeedyIP.xaml]
+[C:/Users/Fran/Documents/GitHub/MauiApp-IP/Resources/Views/ContentSpeedyIP.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_IP.Resources.Views.ContentSpeedyIP.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Views\ContentSpeedyIP.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Views\ContentSpeedyIP.xaml
 
-[C:/Users/luisa/source/repos/MauiApp-IP/Resources/Views/MainSpeedyIP.xaml]
+[C:/Users/Fran/Documents/GitHub/MauiApp-IP/Resources/Views/MainSpeedyIP.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_IP.Resources.Views.MainSpeedyIP.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Views\MainSpeedyIP.xaml
