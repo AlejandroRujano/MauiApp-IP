@@ -6,16 +6,24 @@ namespace MauiApp_IP.Resources.Views;
 public partial class ContentSpeedyIP : ContentPage
 {
     Adaptador _adaptadorActivo;
+    readonly Animation _animacionSacudirPadre;
+    readonly Animation _animacionSacudir1;
+    readonly Animation _animacionSacudir2;
+    readonly Animation _animacionSacudir3;
     public ContentSpeedyIP()
     {
         InitializeComponent();
         _animacionSacudirPadre = new Animation();
-        _animacionSacudir1 = new Animation(x => ImgInterfaz2.Rotation = x, 0, 30, Easing.Linear);
-        _animacionSacudir2 = new Animation(x => ImgInterfaz2.Rotation = x, 30, -20, Easing.Linear);
-        _animacionSacudir3 = new Animation(x => ImgInterfaz2.Rotation = x, -20, 0, Easing.Linear);
+        _animacionSacudir1 = new Animation(x => ImgCheck.Rotation = x, 0, 30, Easing.Linear);
+        _animacionSacudir2 = new Animation(x => ImgCheck.Rotation = x, 30, -20, Easing.Linear);
+        _animacionSacudir3 = new Animation(x => ImgCheck.Rotation = x, -20, 0, Easing.Linear);
+
+        _animacionSacudirPadre.Add(0, 0.33, _animacionSacudir1);
+        _animacionSacudirPadre.Add(0.33, 0.66, _animacionSacudir2);
+        _animacionSacudirPadre.Add(0.66, 1, _animacionSacudir3);
     }
 
-    protected async override void OnAppearing()
+    protected override void OnAppearing()
     {
         base.OnAppearing();
 
@@ -31,9 +39,12 @@ public partial class ContentSpeedyIP : ContentPage
 
         //ImgCheck.Opacity = 0;
 
-        await ImgCheck.ScaleTo(1.25, 2500, Easing.Linear);
+        _animacionSacudirPadre.Commit(this, "Sacudir", 16, 1000, Easing.Linear,
+                    null, () => false);
+
+        //await ImgCheck.ScaleTo(1.25, 2500, Easing.Linear);
         //ImgCheck.FadeTo(1, 1000, Easing.Linear);
-        await ImgCheck.ScaleTo(1, 1200, Easing.Linear);
+        //await ImgCheck.ScaleTo(1, 1200, Easing.Linear);
         
 
         //BindableLayout.SetItemsSource(GridSuperior, _adaptadorActivo);
