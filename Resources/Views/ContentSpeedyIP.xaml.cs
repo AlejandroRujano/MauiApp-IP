@@ -46,7 +46,6 @@ public partial class ContentSpeedyIP : ContentPage
         //ImgCheck.FadeTo(1, 1000, Easing.Linear);
         //await ImgCheck.ScaleTo(1, 1200, Easing.Linear);
         
-
         //BindableLayout.SetItemsSource(GridSuperior, _adaptadorActivo);
     }
     private void BtnRegresar_Clicked(object sender, EventArgs e)
