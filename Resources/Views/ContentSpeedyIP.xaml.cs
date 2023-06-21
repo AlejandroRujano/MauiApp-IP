@@ -9,8 +9,6 @@ public partial class ContentSpeedyIP : ContentPage
     public ContentSpeedyIP()
     {
         InitializeComponent();
-
-
     }
 
     protected async override void OnAppearing()

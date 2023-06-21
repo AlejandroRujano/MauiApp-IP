@@ -1033,6 +1033,21 @@
     <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-100.png">
+      <PackagePath>flecharegresar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-125.png">
+      <PackagePath>flecharegresar.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-150.png">
+      <PackagePath>flecharegresar.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-200.png">
+      <PackagePath>flecharegresar.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-400.png">
+      <PackagePath>flecharegresar.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Fran\Documents\GitHub\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\interfaz2.scale-100.png">
       <PackagePath>interfaz2.scale-100.png</PackagePath>
     </AppxPackagedFile>
