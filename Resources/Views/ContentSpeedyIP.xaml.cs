@@ -9,6 +9,10 @@ public partial class ContentSpeedyIP : ContentPage
     public ContentSpeedyIP()
     {
         InitializeComponent();
+        _animacionSacudirPadre = new Animation();
+        _animacionSacudir1 = new Animation(x => ImgInterfaz2.Rotation = x, 0, 30, Easing.Linear);
+        _animacionSacudir2 = new Animation(x => ImgInterfaz2.Rotation = x, 30, -20, Easing.Linear);
+        _animacionSacudir3 = new Animation(x => ImgInterfaz2.Rotation = x, -20, 0, Easing.Linear);
     }
 
     protected async override void OnAppearing()
