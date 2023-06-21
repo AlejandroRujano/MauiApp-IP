@@ -6,9 +6,9 @@
              Shell.NavBarIsVisible="False"
              BackgroundColor="#00003e">
     <FlexLayout Direction="Column" Margin="8">
-        <Grid RowDefinitions="AUTO,AUTO,AUTO,AUTO" ColumnDefinitions="*">
+        <Grid RowDefinitions="AUTO,AUTO,AUTO,100" ColumnDefinitions="*">
             <!-- PRIMERA FILA -->
-            <Grid RowDefinitions="*" ColumnDefinitions="*,*" Margin="8,8,8,50" Grid.Row="0">
+            <Grid RowDefinitions="*" ColumnDefinitions="*,*" Margin="8,8,8,40" Grid.Row="0">
                 <ImageButton Source="lunaborde"
                          HeightRequest="35"
                          WidthRequest="35"
@@ -27,21 +27,25 @@
             <!-- SEGUNDA FILA -->
             <VerticalStackLayout Margin="8" Grid.Row="1">
                 <Label
+                    FontFamily="raleway"
                     Text="Bienvenido a"
                     TextColor="White"
                     FontSize="36"
                     Padding="8"
                     FontAttributes="Bold"
-                    HorizontalOptions="Center"
+                    HorizontalOptions="Start"
+                    Margin="24,0,0,0"
                 >
                 </Label>
                 <Label
+                    FontFamily="raleway"
                     Text="Krosfy Netcheck"
                     FontAttributes="Bold"
                     TextColor="White"
                     FontSize="36"
-                    HorizontalOptions="Center"
+                    HorizontalOptions="End"
                     Padding="8"
+                    Margin="0,0,24,0"
             >
                 </Label>
             </VerticalStackLayout>
@@ -56,29 +60,17 @@
                      >
             </ImageButton>
             <!-- CUARTA FILA -->
-            <Border
+            <Border BackgroundColor="#00003e" 
                 Stroke="#a001f6"
                 StrokeThickness="5"
-                x:Name="BordeBtnAnalizar"
-                Grid.Row="3"
                 HorizontalOptions="Center"
-                >
+                Padding="145,0,145,0"
+                x:Name="BordeBtnAnalizar" 
+                Grid.Row="3">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="50,50,50,50">
                     </RoundRectangle>
                 </Border.StrokeShape>
-                <Button
-                    Text="ANALIZAR"
-                TextColor="White"
-                FontSize="36"
-                FontAttributes="Bold"
-                CharacterSpacing="1.25"
-                BackgroundColor="#00003e"
-                CornerRadius="50"
-                IsEnabled="False"
-                Padding="36,16,36,16"   
-                >
-                </Button>
             </Border>
             <Button
                 Text="ANALIZAR"
@@ -90,13 +82,13 @@
                 BackgroundColor="#00003e"
                 CornerRadius="50"
                 BorderColor="#3733ac"
-                BorderWidth="2"
+                BorderWidth="4"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
                 x:Name="BtnAnalizar"
                 Clicked="BtnAnalizar_Clicked"
                 Grid.Row="3"
-                HorizontalOptions="Center"
-                Margin="5"
-                >
+            >
             </Button>
         </Grid>
     </FlexLayout>

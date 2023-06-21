@@ -12,7 +12,7 @@ public partial class MainSpeedyIP : ContentPage
         InitializeComponent();
 
         _animacionRotacion = new Animation(x => ImgCentral.Rotation = x, 0, 360, Easing.Linear);
-        _animacionBrillar = new Animation(x => BordeBtnAnalizar.Opacity = x, 1, 0.3, Easing.BounceIn);
+        _animacionBrillar = new Animation(x => BordeBtnAnalizar.Opacity = x, 1, 0.3, Easing.Linear);
 
         ViewModel.PropertyChanged += ViewModel_PropertyChanged;
     }
@@ -42,7 +42,7 @@ public partial class MainSpeedyIP : ContentPage
         _animacionRotacion.Commit(this, "Rotar", 16, 5000, Easing.Linear,
                     null, () => true);
 
-        _animacionBrillar.Commit(this, "Brillar", 16, 2000, Easing.Linear,
+        _animacionBrillar.Commit(this, "Brillar", 16, 3000, Easing.Linear,
                     null, () => true);
     }
     private async void BtnAnalizar_Clicked(object sender, EventArgs e)

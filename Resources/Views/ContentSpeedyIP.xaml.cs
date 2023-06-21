@@ -6,16 +6,32 @@ namespace MauiApp_IP.Resources.Views;
 public partial class ContentSpeedyIP : ContentPage
 {
     Adaptador _adaptadorActivo;
+    readonly Animation _animacionSacudirPadre;
+    readonly Animation _animacionSacudir1;
+    readonly Animation _animacionSacudir2;
+    readonly Animation _animacionSacudir3;
+
     public ContentSpeedyIP()
     {
         InitializeComponent();
-
+        _animacionSacudirPadre = new Animation();
+        _animacionSacudir1 = new Animation(x => ImgInterfaz2.Rotation = x, 0, 30, Easing.Linear);
+        _animacionSacudir2 = new Animation(x => ImgInterfaz2.Rotation = x, 30, -20, Easing.Linear);
+        _animacionSacudir3 = new Animation(x => ImgInterfaz2.Rotation = x, -20, 0, Easing.Linear);
 
     }
 
-    protected async override void OnAppearing()
+    protected override void OnAppearing()
     {
         base.OnAppearing();
+
+        _animacionSacudirPadre.Add(0, 0.33, _animacionSacudir1);
+        _animacionSacudirPadre.Add(0.33, 0.66, _animacionSacudir2);
+        _animacionSacudirPadre.Add(0.66, 1, _animacionSacudir3);
+
+
+        _animacionSacudirPadre.Commit(this, "Sacudir", 16, 500, Easing.Linear,
+                    null, () => true);
 
         var _networkInterfaces = NetworkInterface.GetAllNetworkInterfaces();
 
@@ -25,45 +41,11 @@ public partial class ContentSpeedyIP : ContentPage
 
         GridSuperior.BindingContext = _adaptadorActivo;
 
-        GridDesplegable.BindingContext = _adaptadorActivo;
-
-        //ImgCheck.Opacity = 0;
-
-        await ImgCheck.ScaleTo(1.25, 2500, Easing.Linear);
-        //ImgCheck.FadeTo(1, 1000, Easing.Linear);
-        await ImgCheck.ScaleTo(1, 1200, Easing.Linear);
-        
-
         //BindableLayout.SetItemsSource(GridSuperior, _adaptadorActivo);
     }
+
     private void BtnRegresar_Clicked(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("..");
-    }
-
-    private async void BtnMostrasMas_Clicked(object sender, EventArgs e)
-    {
-        if (!GridDesplegable.IsVisible)
-        {
-            GridDesplegable.Opacity = 1;
-            VerticalDesplegable1.Opacity = 0;
-            VerticalDesplegable2.Opacity = 0;
-            VerticalDesplegable3.Opacity = 0;
-            VerticalDesplegable4.Opacity = 0;
-            VerticalDesplegable5.Opacity = 0;
-
-            GridDesplegable.IsVisible = true;
-
-            await VerticalDesplegable1.FadeTo(1, 200, Easing.Linear);
-            await VerticalDesplegable2.FadeTo(1, 200, Easing.Linear);
-            await VerticalDesplegable3.FadeTo(1, 200, Easing.Linear);
-            await VerticalDesplegable4.FadeTo(1, 200, Easing.Linear);
-            await VerticalDesplegable5.FadeTo(1, 200, Easing.Linear);
-        }
-        else
-        {
-            await GridDesplegable.FadeTo(0, 200, Easing.Linear);
-            GridDesplegable.IsVisible = false;
-        }
     }
 }
