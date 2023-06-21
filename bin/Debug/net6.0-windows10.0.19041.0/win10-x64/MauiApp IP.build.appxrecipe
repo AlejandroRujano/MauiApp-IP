@@ -835,6 +835,12 @@
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Raleway-Regular.ttf">
+      <PackagePath>Raleway-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Raleway-VariableFont_wght.ttf">
+      <PackagePath>Raleway-VariableFont_wght.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -988,6 +994,30 @@
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cargar2.scale-400.png">
       <PackagePath>cargar2.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check1.scale-100.png">
+      <PackagePath>check1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check2.scale-100.png">
+      <PackagePath>check2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check3.scale-100.png">
+      <PackagePath>check3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check4.scale-100.png">
+      <PackagePath>check4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check5.scale-100.png">
+      <PackagePath>check5.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check6.scale-100.png">
+      <PackagePath>check6.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkinterfaz.scale-100.png">
+      <PackagePath>checkinterfaz.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkinterfaz2.scale-100.png">
+      <PackagePath>checkinterfaz2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1002,6 +1032,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-100.png">
+      <PackagePath>flecharegresar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-125.png">
+      <PackagePath>flecharegresar.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-150.png">
+      <PackagePath>flecharegresar.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-200.png">
+      <PackagePath>flecharegresar.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-400.png">
+      <PackagePath>flecharegresar.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\interfaz2.scale-100.png">
       <PackagePath>interfaz2.scale-100.png</PackagePath>

@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\Users\luisa\source\repos\MauiApp-IP\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-19T20:03:58.334</Modified>
+      <Modified>2023-06-21T21:12:33.683</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-19T20:03:56.868</Modified>
+      <Modified>2023-06-21T21:01:39.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp IP.runtimeconfig.json">
       <PackagePath>MauiApp IP.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-19T20:03:55.598</Modified>
+      <Modified>2023-06-21T19:37:14.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp IP.dll">
       <PackagePath>MauiApp IP.dll</PackagePath>
-      <Modified>2023-06-19T20:03:44.298</Modified>
+      <Modified>2023-06-21T21:12:28.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp IP.exe</PackagePath>
-      <Modified>2023-06-19T20:03:44.472</Modified>
+      <Modified>2023-06-21T21:12:28.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp IP.deps.json">
       <PackagePath>MauiApp IP.deps.json</PackagePath>
-      <Modified>2023-06-19T20:03:55.069</Modified>
+      <Modified>2023-06-21T19:37:13.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.18\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1114,233 +1114,293 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-06-19T19:16:03.246</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Raleway-Regular.ttf">
+      <PackagePath>Raleway-Regular.ttf</PackagePath>
+      <Modified>2023-06-21T00:28:42.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Raleway-VariableFont_wght.ttf">
+      <PackagePath>Raleway-VariableFont_wght.ttf</PackagePath>
+      <Modified>2023-06-21T00:28:42.248</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-06-19T20:02:59.570</Modified>
+      <Modified>2023-06-21T00:33:40.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.840</Modified>
+      <Modified>2023-06-21T00:33:41.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.922</Modified>
+      <Modified>2023-06-21T00:33:41.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.958</Modified>
+      <Modified>2023-06-21T00:33:41.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:03:01.036</Modified>
+      <Modified>2023-06-21T00:33:41.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:01.276</Modified>
+      <Modified>2023-06-21T00:33:41.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.909</Modified>
+      <Modified>2023-06-21T00:33:40.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.924</Modified>
+      <Modified>2023-06-21T00:33:40.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.036</Modified>
+      <Modified>2023-06-21T00:33:41.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.940</Modified>
+      <Modified>2023-06-21T00:33:41.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.966</Modified>
+      <Modified>2023-06-21T00:33:41.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.733</Modified>
+      <Modified>2023-06-21T00:33:40.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.778</Modified>
+      <Modified>2023-06-21T00:33:40.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.883</Modified>
+      <Modified>2023-06-21T00:33:40.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.823</Modified>
+      <Modified>2023-06-21T00:33:40.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.853</Modified>
+      <Modified>2023-06-21T00:33:40.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.607</Modified>
+      <Modified>2023-06-21T00:33:40.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.619</Modified>
+      <Modified>2023-06-21T00:33:40.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.628</Modified>
+      <Modified>2023-06-21T00:33:40.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.638</Modified>
+      <Modified>2023-06-21T00:33:40.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.653</Modified>
+      <Modified>2023-06-21T00:33:40.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.669</Modified>
+      <Modified>2023-06-21T00:33:40.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.678</Modified>
+      <Modified>2023-06-21T00:33:40.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.722</Modified>
+      <Modified>2023-06-21T00:33:40.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.691</Modified>
+      <Modified>2023-06-21T00:33:40.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.702</Modified>
+      <Modified>2023-06-21T00:33:40.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.299</Modified>
+      <Modified>2023-06-21T00:33:41.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.313</Modified>
+      <Modified>2023-06-21T00:33:41.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.330</Modified>
+      <Modified>2023-06-21T00:33:41.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.368</Modified>
+      <Modified>2023-06-21T00:33:41.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.462</Modified>
+      <Modified>2023-06-21T00:33:41.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.220</Modified>
+      <Modified>2023-06-21T00:33:41.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.231</Modified>
+      <Modified>2023-06-21T00:33:41.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.252</Modified>
+      <Modified>2023-06-21T00:33:41.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.263</Modified>
+      <Modified>2023-06-21T00:33:41.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.287</Modified>
+      <Modified>2023-06-21T00:33:41.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.079</Modified>
+      <Modified>2023-06-21T00:33:41.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.093</Modified>
+      <Modified>2023-06-21T00:33:41.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.118</Modified>
+      <Modified>2023-06-21T00:33:41.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.138</Modified>
+      <Modified>2023-06-21T00:33:41.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.183</Modified>
+      <Modified>2023-06-21T00:33:41.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.542</Modified>
+      <Modified>2023-06-21T00:33:41.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.576</Modified>
+      <Modified>2023-06-21T00:33:41.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.618</Modified>
+      <Modified>2023-06-21T00:33:41.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.690</Modified>
+      <Modified>2023-06-21T00:33:41.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.793</Modified>
+      <Modified>2023-06-21T00:33:41.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cargar2.scale-100.png">
       <PackagePath>cargar2.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.580</Modified>
+      <Modified>2023-06-21T00:33:39.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cargar2.scale-125.png">
       <PackagePath>cargar2.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.653</Modified>
+      <Modified>2023-06-21T00:33:40.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cargar2.scale-150.png">
       <PackagePath>cargar2.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.728</Modified>
+      <Modified>2023-06-21T00:33:40.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cargar2.scale-200.png">
       <PackagePath>cargar2.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.905</Modified>
+      <Modified>2023-06-21T00:33:40.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cargar2.scale-400.png">
       <PackagePath>cargar2.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.519</Modified>
+      <Modified>2023-06-21T00:33:40.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check1.scale-100.png">
+      <PackagePath>check1.scale-100.png</PackagePath>
+      <Modified>2023-06-21T00:33:28.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check2.scale-100.png">
+      <PackagePath>check2.scale-100.png</PackagePath>
+      <Modified>2023-06-19T22:33:56.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check3.scale-100.png">
+      <PackagePath>check3.scale-100.png</PackagePath>
+      <Modified>2023-06-19T22:31:12.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check4.scale-100.png">
+      <PackagePath>check4.scale-100.png</PackagePath>
+      <Modified>2023-06-19T22:33:42.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check5.scale-100.png">
+      <PackagePath>check5.scale-100.png</PackagePath>
+      <Modified>2023-06-19T22:33:56.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check6.scale-100.png">
+      <PackagePath>check6.scale-100.png</PackagePath>
+      <Modified>2023-06-19T22:48:42.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkinterfaz.scale-100.png">
+      <PackagePath>checkinterfaz.scale-100.png</PackagePath>
+      <Modified>2023-06-19T22:15:32.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkinterfaz2.scale-100.png">
+      <PackagePath>checkinterfaz2.scale-100.png</PackagePath>
+      <Modified>2023-06-19T21:59:15.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.566</Modified>
+      <Modified>2023-06-21T00:33:39.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.594</Modified>
+      <Modified>2023-06-21T00:33:39.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.632</Modified>
+      <Modified>2023-06-21T00:33:40.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.682</Modified>
+      <Modified>2023-06-21T00:33:40.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.833</Modified>
+      <Modified>2023-06-21T00:33:40.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-100.png">
+      <PackagePath>flecharegresar.scale-100.png</PackagePath>
+      <Modified>2023-06-21T00:33:39.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-125.png">
+      <PackagePath>flecharegresar.scale-125.png</PackagePath>
+      <Modified>2023-06-21T00:33:39.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-150.png">
+      <PackagePath>flecharegresar.scale-150.png</PackagePath>
+      <Modified>2023-06-21T00:33:40.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-200.png">
+      <PackagePath>flecharegresar.scale-200.png</PackagePath>
+      <Modified>2023-06-21T00:33:40.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\flecharegresar.scale-400.png">
+      <PackagePath>flecharegresar.scale-400.png</PackagePath>
+      <Modified>2023-06-21T00:33:40.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\interfaz2.scale-100.png">
       <PackagePath>interfaz2.scale-100.png</PackagePath>
-      <Modified>2023-06-19T19:48:50.255</Modified>
+      <Modified>2023-06-19T21:45:50.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoapp.scale-100.png">
       <PackagePath>logoapp.scale-100.png</PackagePath>
@@ -1348,23 +1408,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lunaborde.scale-100.png">
       <PackagePath>lunaborde.scale-100.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.598</Modified>
+      <Modified>2023-06-21T00:33:39.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lunaborde.scale-125.png">
       <PackagePath>lunaborde.scale-125.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.677</Modified>
+      <Modified>2023-06-21T00:33:40.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lunaborde.scale-150.png">
       <PackagePath>lunaborde.scale-150.png</PackagePath>
-      <Modified>2023-06-19T20:02:59.800</Modified>
+      <Modified>2023-06-21T00:33:40.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lunaborde.scale-200.png">
       <PackagePath>lunaborde.scale-200.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.080</Modified>
+      <Modified>2023-06-21T00:33:40.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisa\source\repos\MauiApp-IP\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lunaborde.scale-400.png">
       <PackagePath>lunaborde.scale-400.png</PackagePath>
-      <Modified>2023-06-19T20:03:00.950</Modified>
+      <Modified>2023-06-21T00:33:41.224</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -285,11 +285,12 @@
             
             <!-- SEXTA FILA -->
             <Image 
-            Source="check2.png"
-            HeightRequest="280"
-            WidthRequest="280"
-            Grid.Column="0"
-            Grid.Row="5"
+                Source="check2.png"
+                HeightRequest="280"
+                WidthRequest="280"
+                Grid.Column="0"
+                Grid.Row="5"
+                x:Name="ImgInterfaz2"
             >
             </Image>
         </Grid>
